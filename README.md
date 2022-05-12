@@ -149,7 +149,7 @@ nand(q,x,qbar);
 nand(qbar,y,q);
 endmodule
 ```
-## D FLIPFLOP:
+## T FLIPFLOP:
 ```
 module tft(t,clk,q,qbar);
 input t,clk;
@@ -171,6 +171,8 @@ endmodule
 
 
 ### RTL LOGIC FOR JK FLIPFLOPS 
+![image](https://user-images.githubusercontent.com/94165326/168060469-52f4859b-f357-471b-b5f7-c6ead21e8d51.png)
+
 
 
 
@@ -181,14 +183,28 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR JK FLIP FLOPS 
+![image](https://user-images.githubusercontent.com/94165326/168060784-bbc40397-36f3-4e46-96da-8cf31e0d8de6.png)
+
 
 
 ### RTL LOGIC FOR SR FLIPFLOPS 
+![image](https://user-images.githubusercontent.com/94165326/168060969-dd07f479-ab0f-4628-ac43-f3b9a17d9154.png)
+
 ### TIMING DIGRAMS FOR SR FLIP FLOPS 
+![image](https://user-images.githubusercontent.com/94165326/168061135-96b9a0ee-bc75-41cc-8c27-44568695858c.png)
+
 ### RTL LOGIC FOR D FLIPFLOPS 
+![image](https://user-images.githubusercontent.com/94165326/168061298-d3992dfb-343a-472a-b46e-3d2d9b3c0905.png)
+
 ### TIMING DIGRAMS FOR D FLIP FLOPS
+![image](https://user-images.githubusercontent.com/94165326/168061493-848ff0d5-f2a8-4341-8f54-cdb622480d2a.png)
+
 ### RTL LOGIC FOR T FLIPFLOPS 
+![image](https://user-images.githubusercontent.com/94165326/168061638-c012ae30-5d99-446c-a475-1dba62997a78.png)
+
 ### TIMING DIGRAMS FOR T FLIP FLOPS
+![image](https://user-images.githubusercontent.com/94165326/168061802-e87091d9-c6ea-4734-ae41-417af8c44912.png)
+
 
 
 
