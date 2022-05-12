@@ -200,7 +200,7 @@ endmodule
 ![image](https://user-images.githubusercontent.com/94165326/168061493-848ff0d5-f2a8-4341-8f54-cdb622480d2a.png)
 
 ### RTL LOGIC FOR T FLIPFLOPS 
-![image](https://user-images.githubusercontent.com/94165326/168061638-c012ae30-5d99-446c-a475-1dba62997a78.png)
+![image](https://user-images.githubusercontent.com/94165326/168062779-83af98b2-adec-4141-86c1-475e78e83221.png)
 
 ### TIMING DIGRAMS FOR T FLIP FLOPS
 ![image](https://user-images.githubusercontent.com/94165326/168061802-e87091d9-c6ea-4734-ae41-417af8c44912.png)
