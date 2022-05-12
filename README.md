@@ -107,18 +107,70 @@ Q(t+1)=T′Q(t)+TQ(t)′
 
 
 ### PROGRAM 
-/*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: RAKSHITHA DEVI.J
+RegisterNumber:212221230082  
+```
+## SR flipflop:
+```
+module SR(s,r,clk,q,qbar);
+input s,r,clk;
+output q,qbar;
+wire x,y;
+nand(x,s,clk);
+nand(y,r,clk);
+nand(q,x,qbar);
+nand(qbar,y,q);
+endmodule
+```
+## JK FLIPFLOP:
+```
+module Jk(j,k,clk,q,qbar);
+input j,k,clk;
+output q,qbar;
+wire x,y;
+nand(x,j,clk,qbar);
+nand(y,k,clk,q);
+nand(q,x,qbar);
+nand(qbar,y,q);
+endmodule
+```
+## D FLIPFLOP:
+```
+moduke DF(d,clk,q,qbar);
+input d,clk;
+output q,qbar;
+assign dbar=!d;
+wire x,y;
+nand(x,d,clk);
+nand(y,dbar,clk);
+nand(q,x,qbar);
+nand(qbar,y,q);
+endmodule
+```
+## D FLIPFLOP:
+```
+module tft(t,clk,q,qbar);
+input t,clk;
+output q,qbar;
+wire s,r;
+nand(s,t,clk,qbar);
+nand(r,t,clk,q);
+nand(q,s,qbar);
+nand(qbar,r,q);
+endmodule
+```
+
+## OUTPUT:
 
 
 
 
 
 
-### RTL LOGIC FOR FLIPFLOPS 
+
+### RTL LOGIC FOR JK FLIPFLOPS 
 
 
 
@@ -128,8 +180,15 @@ RegisterNumber:
 
 
 
-### TIMING DIGRAMS FOR FLIP FLOPS 
+### TIMING DIGRAMS FOR JK FLIP FLOPS 
 
+
+### RTL LOGIC FOR SR FLIPFLOPS 
+### TIMING DIGRAMS FOR SR FLIP FLOPS 
+### RTL LOGIC FOR D FLIPFLOPS 
+### TIMING DIGRAMS FOR D FLIP FLOPS
+### RTL LOGIC FOR T FLIPFLOPS 
+### TIMING DIGRAMS FOR T FLIP FLOPS
 
 
 
@@ -138,3 +197,5 @@ RegisterNumber:
 
 
 ### RESULTS 
+Hence all the flipflops are implemented using verilog programming and its functionality is validated successfully.
+
